@@ -6,7 +6,7 @@ function UserList(props) {
   if (props.items.length === 0) {
     return (
       <div className="center">
-        <h2>N User found.</h2>
+        <h2>User Not found.</h2>
       </div>
     );
   }
